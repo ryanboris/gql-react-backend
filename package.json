@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js --exec babel-node",
-    "json:server": "json-server --watch database/db.json"
+    "start": "node server.js",
+    "json:server": "json-server --watch database/db.json",
+    "dev": "nodemon server.js --exec babel-node"
   },
   "repository": "https://github.com/ryanboris/gql-react-backend.git",
   "author": "ryanboris <ryan.boris@gmail.com>",
